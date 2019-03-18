@@ -124,7 +124,7 @@ function recognizeFile(file){
 </select>
 
 <button onclick="recognizeFile('../node/cosmic.png')">Sample Image</button>
-<input type="file" onchange="recognizeFile(window.lastFile=this.files[0])">
+<input type="file" accept="image/*;capture=camera" onchange="recognizeFile(window.lastFile=this.files[0])">
 
 <div id="log"></div>
 
